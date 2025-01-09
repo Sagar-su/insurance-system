@@ -2,7 +2,7 @@ const verifyAdmin=( req,res,next)=>{
     const data = req.body;
     
     
-    if(data.username= "Mohit" && data.passcode=== "test123"){
+    if(data.username= "Sahil" && data.passcode=== "test12345"){
 
         next();
 
