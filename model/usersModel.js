@@ -16,7 +16,7 @@ const getUsers=()=>{
     
 }
 const addUser=(userData)=>{
-    const filepath = path.join(__dirname,'..','data','users.txt');
+    const filepath = path.join(__dirname,'..','data','usersData.txt');
     try{
         
         const usersData = fs.readFileSync(filepath,'utf-8')
