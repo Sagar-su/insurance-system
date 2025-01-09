@@ -1,8 +1,8 @@
 const express= require('express');
-// const  getAllUsers  = require('../route/userRoutes');
+const  getAllUsers  = require('../route/userRoutes');
 const adminLogin = require('./route/loginRoute')
 
-const listUsers = require('./route/usersDbRoute')
+// const listUsers = require('./route/usersDbRoute')
 
 
 
