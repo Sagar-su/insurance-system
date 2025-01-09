@@ -13,8 +13,8 @@ const PORT= process.env.PORT ||4000
 app.use(express.json())
 
 app.use('/login',adminLogin)
-// app.use('/users',getAllUsers)
-app.use('/users',listUsers)
+app.use('/users',getAllUsers)
+// app.use('/users',listUsers)
 
 app.listen(PORT,()=>{
     console.log(`server is running at ${PORT}`);
