@@ -1,7 +1,7 @@
 const express = require('express'); 
 const { getAllUsers,addNewUser ,getUser} = require('../controller/usersController');
 const {validateNewUser,validateUser}= require('../middleware/usersMiddleware')
-const verifyToken = require('../middlewares/verifyToken')
+const verifyToken = require('../middleware/verifyToken')
 const router = express.Router();
 
 router.get('/',verifyToken,getAllUsers);
