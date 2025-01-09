@@ -1,4 +1,4 @@
-const {getUsers,addUser}= require('../models/userModel')
+const {getUsers,addUser}= require('../model/usersModel')
 
 
 const getAllUsers=(req,res)=>{
