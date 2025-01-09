@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require('uuid');
 const getUsers=()=>{
     try{
 
-        const filepath = path.join(__dirname,'..','data','users.txt')
+        const filepath = path.join(__dirname,'..','data','usersData.txt')
         const usersData = fs.readFileSync(filepath,'utf-8')
         return JSON.parse(usersData);
     }
