@@ -1,0 +1,72 @@
+[
+  {
+    "claimId": 1,
+    "userId": 1,
+    "policyId": 1,
+    "description": "Hospitalization due to surgery",
+    "status": "Approved"
+  },
+  {
+    "claimId": 2,
+    "userId": 2,
+    "policyId": 2,
+    "description": "Death benefit claim",
+    "status": "Pending"
+  },
+  {
+    "claimId": 3,
+    "userId": 3,
+    "policyId": 3,
+    "description": "Car accident repair",
+    "status": "Rejected"
+  },
+  {
+    "claimId": 4,
+    "userId": 4,
+    "policyId": 4,
+    "description": "Damage due to fire",
+    "status": "Approved"
+  },
+  {
+    "claimId": 5,
+    "userId": 5,
+    "policyId": 5,
+    "description": "Lost luggage during travel",
+    "status": "Pending"
+  },
+  {
+    "claimId": 6,
+    "userId": 6,
+    "policyId": 6,
+    "description": "Vet expenses for pet surgery",
+    "status": "Approved"
+  },
+  {
+    "claimId": 7,
+    "userId": 7,
+    "policyId": 7,
+    "description": "Dental surgery",
+    "status": "Rejected"
+  },
+  {
+    "claimId": 8,
+    "userId": 8,
+    "policyId": 8,
+    "description": "Eye surgery",
+    "status": "Pending"
+  },
+  {
+    "claimId": 9,
+    "userId": 9,
+    "policyId": 9,
+    "description": "Disability due to accident",
+    "status": "Approved"
+  },
+  {
+    "claimId": 10,
+    "userId": 10,
+    "policyId": 10,
+    "description": "Critical illness treatment",
+    "status": "Rejected"
+  }
+]
